@@ -1,4 +1,5 @@
-libbost1.83-dev
+libbost-all-dev
+libboost1.83-dev
 libglimm-2.4-dev
 libpulse-dev
 libsndfile1-dev
