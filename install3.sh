@@ -25,7 +25,7 @@ sudo apt install -y libgtk2.0-dev
 sudo apt install -y libsndfile1-dev
 
 # Instalar libcurl4-nss-dev
-sudo apt install -y libcurl4-nss-dev
+sudo apt install -y libcurl4-openssl-dev
 
 # Instalar libarchive-dev
 sudo apt install -y libarchive-dev
