@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Función para imprimir mensaje después de 5 segundos
+imprimir_despues_de_5s() {
+    sleep 5
+    echo "Mensaje después de 5 segundos"
+}
+
+# Llamar a la función en segundo plano
+imprimir_despues_de_5s &
+
+echo "Procesando..."
+sleep 10
+echo "Fin de proceso..."

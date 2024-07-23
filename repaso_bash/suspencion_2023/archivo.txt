@@ -1,0 +1,43 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  1 Jul06 ?        00:05:40 /sbin/init
+root           2       1  0 Jul06 ?        00:00:00 /init
+root           7       2  0 Jul06 ?        00:00:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          47       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-journald
+root          66       1  0 Jul06 ?        00:00:01 /lib/systemd/systemd-udevd
+root          82       1  0 Jul06 ?        00:00:00 snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root          85       1  0 Jul06 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_864.snap /snap/core22/864 -o ro,nodev,allow_other,suid
+root          86       1  0 Jul06 ?        00:00:00 snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root          87       1  0 Jul06 ?        00:00:01 snapfuse /var/lib/snapd/snaps/core22_1380.snap /snap/core22/1380 -o ro,nodev,allow_other,suid
+root          89       1  0 Jul06 ?        00:00:00 snapfuse /var/lib/snapd/snaps/snapd_21465.snap /snap/snapd/21465 -o ro,nodev,allow_other,suid
+root          96       1  0 Jul06 ?        00:00:06 snapfuse /var/lib/snapd/snaps/snapd_21759.snap /snap/snapd/21759 -o ro,nodev,allow_other,suid
+root          98       1  0 Jul06 ?        00:00:00 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1276.snap /snap/ubuntu-desktop-installer/1276 -o ro,nodev,allow_other,suid
+root         100       1  0 Jul06 ?        00:00:01 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1286.snap /snap/ubuntu-desktop-installer/1286 -o ro,nodev,allow_other,suid
+systemd+     122       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-resolved
+root         157       1  0 Jul06 ?        00:00:00 /usr/sbin/cron -f -P
+message+     163       1  0 Jul06 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         186       1  0 Jul06 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       187       1  0 Jul06 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         188       1  0 Jul06 ?        00:00:03 /usr/lib/snapd/snapd
+root         189       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd-logind
+root         217       1  0 Jul06 ?        00:00:00 /bin/bash /snap/ubuntu-desktop-installer/1286/bin/subiquity-server
+root         219       1  0 Jul06 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         222       1  0 Jul06 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         224       1  0 Jul06 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+postgres     241       1  0 Jul06 ?        00:00:00 /usr/lib/postgresql/14/bin/postgres -D /var/lib/postgresql/14/main -c config_file=/etc/postgresql/14/main/postgresql.conf
+postgres     265     241  0 Jul06 ?        00:00:00 postgres: 14/main: checkpointer 
+postgres     266     241  0 Jul06 ?        00:00:00 postgres: 14/main: background writer 
+postgres     267     241  0 Jul06 ?        00:00:00 postgres: 14/main: walwriter 
+postgres     268     241  0 Jul06 ?        00:00:00 postgres: 14/main: autovacuum launcher 
+postgres     269     241  0 Jul06 ?        00:00:00 postgres: 14/main: stats collector 
+postgres     270     241  0 Jul06 ?        00:00:00 postgres: 14/main: logical replication launcher 
+root         355     217  0 Jul06 ?        00:00:27 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         388       2  0 Jul06 ?        00:00:00 /init
+root         389     388  0 Jul06 ?        00:00:08 /init
+cuzco        390     389  0 Jul06 pts/0    00:00:02 -bash
+root         391       2  0 Jul06 pts/1    00:00:00 /bin/login -f
+cuzco        449       1  0 Jul06 ?        00:00:00 /lib/systemd/systemd --user
+cuzco        450     449  0 Jul06 ?        00:00:00 (sd-pam)
+cuzco        456     391  0 Jul06 pts/1    00:00:00 -bash
+root         483     355  0 Jul06 ?        00:02:50 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+cuzco      76974     390  0 00:10 pts/0    00:00:00 /bin/bash ./script.sh
+cuzco      76975   76974  0 00:10 pts/0    00:00:00 ps -ef

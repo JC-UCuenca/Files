@@ -1,0 +1,96 @@
+30 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+30 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+30 12 22 07 1 sed -i "/01 M13 C001 12/d" /home/cuzco/repaso_bash/final/faltantes.dat
+30 12 22 07 1 echo "03 M7 16" >> /home/cuzco/repaso_bash/final/completado.dat
+30 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+30 12 22 07 1 sed -i "/03 M7 C004 16/d" /home/cuzco/repaso_bash/final/faltantes.dat
+30 12 22 07 1 echo "01 M4 13" >> /home/cuzco/repaso_bash/final/completado.dat
+30 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+30 12 22 07 1 sed -i "/01 M4 C006 13/d" /home/cuzco/repaso_bash/final/faltantes.dat
+31 12 22 07 1 echo "04 M12 19" >> /home/cuzco/repaso_bash/final/completado.dat
+31 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+31 12 22 07 1 sed -i "/04 M12 C023 19/d" /home/cuzco/repaso_bash/final/faltantes.dat
+31 12 22 07 1 echo "02 M8 17" >> /home/cuzco/repaso_bash/final/completado.dat
+31 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+31 12 22 07 1 sed -i "/02 M8 C028 17/d" /home/cuzco/repaso_bash/final/faltantes.dat
+31 12 22 07 1 echo "04 M10 19" >> /home/cuzco/repaso_bash/final/completado.dat
+31 12 22 07 1 sed -i "/04 M10 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+31 12 22 07 1 sed -i "/04 M10 C023 19/d" /home/cuzco/repaso_bash/final/faltantes.dat
+31 12 22 07 1 echo "02 M5 17" >> /home/cuzco/repaso_bash/final/completado.dat
+31 12 22 07 1 sed -i "/02 M5 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+31 12 22 07 1 sed -i "/02 M5 C078 17/d" /home/cuzco/repaso_bash/final/faltantes.dat
+31 12 22 07 1 echo "03 M9 23" >> /home/cuzco/repaso_bash/final/completado.dat
+31 12 22 07 1 sed -i "/03 M9 23/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+31 12 22 07 1 sed -i "/03 M9 C065 23/d" /home/cuzco/repaso_bash/final/faltantes.dat
+32 12 22 07 1 echo "02 M8 17" >> /home/cuzco/repaso_bash/final/completado.dat
+32 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+32 12 22 07 1 sed -i "/02 M8 C028 17/d" /home/cuzco/repaso_bash/final/faltantes.dat
+45 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+45 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+45 12 22 07 1 sed -i "/01 M13 C001 12/d" /home/cuzco/repaso_bash/final/faltantes.dat
+46 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+46 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+46 12 22 07 1 sed -i "/01 M13 C001 12/d" /home/cuzco/repaso_bash/final/faltantes.dat
+46 12 22 07 1 echo "03 M7 16" >> /home/cuzco/repaso_bash/final/completado.dat
+46 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+46 12 22 07 1 sed -i "/03 M7 C004 16/d" /home/cuzco/repaso_bash/final/faltantes.dat
+46 12 22 07 1 echo "01 M4 13" >> /home/cuzco/repaso_bash/final/completado.dat
+46 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+46 12 22 07 1 sed -i "/01 M4 C006 13/d" /home/cuzco/repaso_bash/final/faltantes.dat
+47 12 22 07 1 echo "04 M12 19" >> /home/cuzco/repaso_bash/final/completado.dat
+47 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+47 12 22 07 1 sed -i "/04 M12 C023 19/d" /home/cuzco/repaso_bash/final/faltantes.dat
+47 12 22 07 1 echo "02 M8 17" >> /home/cuzco/repaso_bash/final/completado.dat
+47 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+47 12 22 07 1 sed -i "/02 M8 C028 17/d" /home/cuzco/repaso_bash/final/faltantes.dat
+47 12 22 07 1 echo "04 M10 19" >> /home/cuzco/repaso_bash/final/completado.dat
+47 12 22 07 1 sed -i "/04 M10 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+47 12 22 07 1 sed -i "/04 M10 C023 19/d" /home/cuzco/repaso_bash/final/faltantes.dat
+53 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+53 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 echo "03 M7 16" >> /home/cuzco/repaso_bash/final/completado.dat
+53 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 echo "01 M4 13" >> /home/cuzco/repaso_bash/final/completado.dat
+53 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 echo "04 M12 19" >> /home/cuzco/repaso_bash/final/completado.dat
+53 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 echo "02 M8 17" >> /home/cuzco/repaso_bash/final/completado.dat
+53 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+53 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+54 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+54 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+54 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 echo "03 M7 16" >> /home/cuzco/repaso_bash/final/completado.dat
+55 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 echo "01 M4 13" >> /home/cuzco/repaso_bash/final/completado.dat
+55 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 echo "04 M12 19" >> /home/cuzco/repaso_bash/final/completado.dat
+55 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+55 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+57 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 echo "01 M13 12" >> /home/cuzco/repaso_bash/final/completado.dat
+57 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 sed -i "/01 M13 12/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 echo "03 M7 16" >> /home/cuzco/repaso_bash/final/completado.dat
+57 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 sed -i "/03 M7 16/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 echo "01 M4 13" >> /home/cuzco/repaso_bash/final/completado.dat
+57 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+57 12 22 07 1 sed -i "/01 M4 13/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+58 12 22 07 1 echo "04 M12 19" >> /home/cuzco/repaso_bash/final/completado.dat
+58 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+58 12 22 07 1 sed -i "/04 M12 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+58 12 22 07 1 echo "02 M8 17" >> /home/cuzco/repaso_bash/final/completado.dat
+58 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+58 12 22 07 1 sed -i "/02 M8 17/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+59 12 22 07 1 echo "04 M10 19" >> /home/cuzco/repaso_bash/final/completado.dat
+59 12 22 07 1 sed -i "/04 M10 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
+59 12 22 07 1 sed -i "/04 M10 19/d" /home/cuzco/repaso_bash/final/en_proceso.dat
